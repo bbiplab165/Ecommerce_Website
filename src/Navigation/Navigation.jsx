@@ -2,7 +2,7 @@ import React, { useState, useContext, useEffect } from "react";
 import Style from "./Navigation.module.css";
 import Cart from "../Cart/Cart"
 
-import { data } from "../Home/Home"
+import { data } from "../Store/Store"
 import { useNavigate } from "react-router-dom";
 
 function Navigation() {
@@ -28,7 +28,7 @@ function Navigation() {
         navigate("/")
     }
     function handleStore() {
-
+        navigate("/Store")
     }
     function handleAbout() {
         navigate("/About")
