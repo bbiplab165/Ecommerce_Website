@@ -1,0 +1,29 @@
+.heading{
+    /* width: 100% ; */
+    padding: 2%;
+    font-size: 7rem;
+    background-color: gray;
+    margin-top: 3%;
+    text-align: center;
+    color: white;
+    font-family:"Times New Roman";
+    margin-bottom: 3%;
+}
+.body{
+    text-align: center;
+}
+.body img{
+    width: 10%;
+    border-radius: 50%;
+}
+
+.desc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.body p{
+    margin-left: 3%;
+    width: 50%;
+    text-align: center;
+}
